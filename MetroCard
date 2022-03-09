@@ -1,0 +1,39 @@
+public class Metrocard {
+
+    private int time;
+    private boolean card;
+    private int swipes;
+
+
+
+    public Metrocard(int t, int s){
+        this.swipes = s;
+        this.time = t;
+        this.card = getCard();
+    }
+
+    public boolean getcard(){
+        return this.card;
+    }
+
+    public int getSwipes(){
+        return this.swipes;
+    }
+
+    public boolean Card() {
+        if((this.currenttime < 2022 & this.currenttime > 4:35) & swipes > 0) {
+            return true;
+        }
+        return false;
+    }
+
+    public void swipes(){
+        if(this.card) {
+            System.out.println("pass by and swipe"+ this.swipes);
+        }
+    public void Time(){
+        if(this.time) {
+            System.out.println("Time"+ this.time);
+        }
+    } // end Swipe method
+  }// end time method
